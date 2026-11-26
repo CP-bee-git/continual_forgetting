@@ -1,0 +1,104 @@
+{
+  "experiments": {
+    "ABC": [
+      "A_CWRU",
+      "B_JNU",
+      "C_UESTC"
+    ],
+    "ABCD": [
+      "A_CWRU",
+      "B_JNU",
+      "C_UESTC",
+      "D_Ottawa"
+    ]
+  },
+  "domain_input_configs": {
+    "A_CWRU": {
+      "native_rates_hz": [
+        12000
+      ],
+      "target_rate_hz": 12000,
+      "window": 2048,
+      "stride": 512,
+      "standardization": "per-window z-score",
+      "label_mapping": {
+        "normal": 0,
+        "inner_race": 1,
+        "outer_race": 2
+      },
+      "inference_bn": "frozen running buffers captured at own initial training",
+      "adapter": null
+    },
+    "B_JNU": {
+      "native_rates_hz": [
+        50000
+      ],
+      "target_rate_hz": 12000,
+      "window": 2048,
+      "stride": 512,
+      "standardization": "per-window z-score",
+      "label_mapping": {
+        "normal": 0,
+        "inner_race": 1,
+        "outer_race": 2
+      },
+      "inference_bn": "frozen running buffers captured at own initial training",
+      "adapter": null
+    },
+    "C_UESTC": {
+      "native_rates_hz": [
+        20000
+      ],
+      "target_rate_hz": 12000,
+      "window": 2048,
+      "stride": 512,
+      "standardization": "per-window z-score",
+      "label_mapping": {
+        "normal": 0,
+        "inner_race": 1,
+        "outer_race": 2
+      },
+      "inference_bn": "frozen running buffers captured at own initial training",
+      "adapter": null
+    },
+    "D_Ottawa": {
+      "native_rates_hz": [
+        200000
+      ],
+      "target_rate_hz": 12000,
+      "window": 2048,
+      "stride": 512,
+      "standardization": "per-window z-score",
+      "label_mapping": {
+        "normal": 0,
+        "inner_race": 1,
+        "outer_race": 2
+      },
+      "inference_bn": "frozen running buffers captured at own initial training",
+      "adapter": null
+    }
+  },
+  "shared_model_state": "WDCNN convolution, BatchNorm affine parameters and the three-class classifier weights",
+  "training_bn": "shared running buffers evolve with training; domain snapshots only switched at evaluation and before A relearning",
+  "relearning_bn": "A starts from its initial frozen running buffers and is evaluated with its relearned running buffers",
+  "unseen_domain_bn": "live shared buffers",
+  "split": {
+    "ABC": "raw chronological 70/15/15 before resampling/windowing",
+    "D": "whole recordings; trial indices 1/2/3 for train/validation/test"
+  },
+  "steps_per_domain": 100,
+  "a_relearning_epochs": 10,
+  "batch_size": 64,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "lr": 0.001,
+  "optimizer": "Adam reset at each training stage",
+  "checkpoint_selection": "last optimizer step",
+  "replay": false,
+  "device": "cuda",
+  "torch": "2.14.0.dev20260803+cu130",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+}

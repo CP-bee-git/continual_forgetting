@@ -1,0 +1,41 @@
+A_CWRU: {'train': {'normal': 330, 'inner_race': 162, 'outer_race': 163}, 'validation': {'normal': 68, 'inner_race': 32, 'outer_race': 32}, 'test': {'normal': 68, 'inner_race': 32, 'outer_race': 32}}
+B_JNU: {'train': {'normal': 489, 'inner_race': 161, 'outer_race': 161}, 'validation': {'normal': 102, 'inner_race': 32, 'outer_race': 32}, 'test': {'normal': 102, 'inner_race': 32, 'outer_race': 32}}
+C_UESTC: {'train': {'normal': 212, 'inner_race': 212, 'outer_race': 212}, 'validation': {'normal': 43, 'inner_race': 43, 'outer_race': 43}, 'test': {'normal': 43, 'inner_race': 43, 'outer_race': 43}}
+D_Ottawa: {'train': {'normal': 924, 'inner_race': 924, 'outer_race': 924}, 'validation': {'normal': 924, 'inner_race': 924, 'outer_race': 924}, 'test': {'normal': 924, 'inner_race': 924, 'outer_race': 924}}
+UCILN class-incremental protocol old 75.37% → 41.04%; new 93.75%; overall 51.20%
+sequential seed=2026 after_B (0.5s) A_CWRU=100.00% B_JNU=99.40% C_UESTC=37.21% D_Ottawa=35.10%
+sequential seed=2026 after_C (0.48s) A_CWRU=24.24% B_JNU=65.06% C_UESTC=100.00% D_Ottawa=33.33%
+sequential seed=2026 after_D (0.48s) A_CWRU=48.48% B_JNU=25.90% C_UESTC=98.45% D_Ottawa=99.68%
+sequential seed=2027 after_B (0.49s) A_CWRU=75.76% B_JNU=100.00% C_UESTC=28.68% D_Ottawa=34.05%
+sequential seed=2027 after_C (0.48s) A_CWRU=24.24% B_JNU=19.28% C_UESTC=100.00% D_Ottawa=33.33%
+sequential seed=2027 after_D (0.49s) A_CWRU=24.24% B_JNU=19.28% C_UESTC=95.35% D_Ottawa=99.60%
+sequential seed=2028 after_B (0.48s) A_CWRU=75.76% B_JNU=100.00% C_UESTC=58.91% D_Ottawa=46.61%
+sequential seed=2028 after_C (0.5s) A_CWRU=51.52% B_JNU=29.52% C_UESTC=100.00% D_Ottawa=33.33%
+sequential seed=2028 after_D (0.49s) A_CWRU=24.24% B_JNU=19.28% C_UESTC=48.84% D_Ottawa=98.81%
+ewc seed=2026 after_B (0.6s) A_CWRU=100.00% B_JNU=99.40% C_UESTC=37.21% D_Ottawa=35.10%
+ewc seed=2026 after_C (0.66s) A_CWRU=24.24% B_JNU=82.53% C_UESTC=100.00% D_Ottawa=33.33%
+ewc seed=2026 after_D (0.73s) A_CWRU=46.21% B_JNU=19.88% C_UESTC=99.22% D_Ottawa=99.64%
+ewc seed=2027 after_B (0.6s) A_CWRU=75.00% B_JNU=100.00% C_UESTC=28.68% D_Ottawa=34.05%
+ewc seed=2027 after_C (0.67s) A_CWRU=24.24% B_JNU=19.28% C_UESTC=100.00% D_Ottawa=33.33%
+ewc seed=2027 after_D (0.73s) A_CWRU=24.24% B_JNU=19.88% C_UESTC=99.22% D_Ottawa=99.49%
+ewc seed=2028 after_B (0.59s) A_CWRU=75.76% B_JNU=100.00% C_UESTC=58.14% D_Ottawa=45.89%
+ewc seed=2028 after_C (0.67s) A_CWRU=58.33% B_JNU=19.28% C_UESTC=100.00% D_Ottawa=33.33%
+ewc seed=2028 after_D (0.73s) A_CWRU=24.24% B_JNU=19.28% C_UESTC=58.14% D_Ottawa=98.48%
+pq_replay seed=2026 after_B (0.04s) A_CWRU=100.00% B_JNU=61.45% C_UESTC=20.93% D_Ottawa=29.62%
+pq_replay seed=2026 after_C (0.04s) A_CWRU=100.00% B_JNU=61.45% C_UESTC=19.38% D_Ottawa=29.51%
+pq_replay seed=2026 after_D (0.06s) A_CWRU=100.00% B_JNU=61.45% C_UESTC=19.38% D_Ottawa=29.65%
+pq_replay seed=2027 after_B (0.04s) A_CWRU=100.00% B_JNU=51.81% C_UESTC=27.91% D_Ottawa=33.30%
+pq_replay seed=2027 after_C (0.04s) A_CWRU=100.00% B_JNU=54.22% C_UESTC=27.13% D_Ottawa=33.30%
+pq_replay seed=2027 after_D (0.04s) A_CWRU=100.00% B_JNU=54.22% C_UESTC=27.13% D_Ottawa=33.30%
+pq_replay seed=2028 after_B (0.04s) A_CWRU=100.00% B_JNU=32.53% C_UESTC=35.66% D_Ottawa=33.33%
+pq_replay seed=2028 after_C (0.04s) A_CWRU=100.00% B_JNU=34.94% C_UESTC=36.43% D_Ottawa=33.33%
+pq_replay seed=2028 after_D (0.04s) A_CWRU=100.00% B_JNU=34.94% C_UESTC=36.43% D_Ottawa=33.33%
+uciln seed=2026 after_B (0.11s) A_CWRU=100.00% B_JNU=12.65% C_UESTC=23.26% D_Ottawa=33.37%
+uciln seed=2026 after_C (0.12s) A_CWRU=99.24% B_JNU=15.06% C_UESTC=31.01% D_Ottawa=32.79%
+uciln seed=2026 after_D (0.15s) A_CWRU=100.00% B_JNU=57.83% C_UESTC=31.78% D_Ottawa=32.22%
+uciln seed=2027 after_B (0.11s) A_CWRU=100.00% B_JNU=20.48% C_UESTC=36.43% D_Ottawa=33.51%
+uciln seed=2027 after_C (0.12s) A_CWRU=100.00% B_JNU=49.40% C_UESTC=23.26% D_Ottawa=34.63%
+uciln seed=2027 after_D (0.15s) A_CWRU=100.00% B_JNU=61.45% C_UESTC=33.33% D_Ottawa=26.44%
+uciln seed=2028 after_B (0.12s) A_CWRU=100.00% B_JNU=11.45% C_UESTC=32.56% D_Ottawa=33.69%
+uciln seed=2028 after_C (0.12s) A_CWRU=100.00% B_JNU=61.45% C_UESTC=48.06% D_Ottawa=33.80%
+uciln seed=2028 after_D (0.15s) A_CWRU=98.48% B_JNU=61.45% C_UESTC=54.26% D_Ottawa=35.53%

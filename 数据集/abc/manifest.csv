@@ -1,0 +1,46 @@
+abc_task,dataset,recording,source_path,label,class_id,native_sample_rate_hz,target_sample_rate_hz,speed_profile,trial
+A,CWRU,97.mat,数据集/cwru/raw/12k_DE/97.mat,normal,0,12000,12000,,
+A,CWRU,105.mat,数据集/cwru/raw/12k_DE/105.mat,inner_race,1,12000,12000,,
+A,CWRU,130.mat,数据集/cwru/raw/12k_DE/130.mat,outer_race,2,12000,12000,,
+B,JNU,n600_3_2.csv,数据集/external/jnu/raw/n600_3_2.csv,normal,0,50000,12000,,
+B,JNU,ib600_2.csv,数据集/external/jnu/raw/ib600_2.csv,inner_race,1,50000,12000,,
+B,JNU,ob600_2.csv,数据集/external/jnu/raw/ob600_2.csv,outer_race,2,50000,12000,,
+C,UESTC,N_800_1.mat,数据集/external/uestc/raw/N_800_1.mat,normal,0,20000,12000,,
+C,UESTC,I_800_1.mat,数据集/external/uestc/raw/I_800_1.mat,inner_race,1,20000,12000,,
+C,UESTC,O_800_1.mat,数据集/external/uestc/raw/O_800_1.mat,outer_race,2,20000,12000,,
+D,Ottawa,H-A-1.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-1.mat,normal,0,200000,12000,A,1
+D,Ottawa,H-A-2.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-2.mat,normal,0,200000,12000,A,2
+D,Ottawa,H-A-3.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-3.mat,normal,0,200000,12000,A,3
+D,Ottawa,H-B-1.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-1.mat,normal,0,200000,12000,B,1
+D,Ottawa,H-B-2.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-2.mat,normal,0,200000,12000,B,2
+D,Ottawa,H-B-3.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-3.mat,normal,0,200000,12000,B,3
+D,Ottawa,H-C-1.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-1.mat,normal,0,200000,12000,C,1
+D,Ottawa,H-C-2.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-2.mat,normal,0,200000,12000,C,2
+D,Ottawa,H-C-3.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-3.mat,normal,0,200000,12000,C,3
+D,Ottawa,H-D-1.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-1.mat,normal,0,200000,12000,D,1
+D,Ottawa,H-D-2.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-2.mat,normal,0,200000,12000,D,2
+D,Ottawa,H-D-3.mat,数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-3.mat,normal,0,200000,12000,D,3
+D,Ottawa,I-A-1.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-1.mat,inner_race,1,200000,12000,A,1
+D,Ottawa,I-A-2.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-2.mat,inner_race,1,200000,12000,A,2
+D,Ottawa,I-A-3.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-3.mat,inner_race,1,200000,12000,A,3
+D,Ottawa,I-B-1.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-1.mat,inner_race,1,200000,12000,B,1
+D,Ottawa,I-B-2.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-2.mat,inner_race,1,200000,12000,B,2
+D,Ottawa,I-B-3.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-3.mat,inner_race,1,200000,12000,B,3
+D,Ottawa,I-C-1.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-1.mat,inner_race,1,200000,12000,C,1
+D,Ottawa,I-C-2.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-2.mat,inner_race,1,200000,12000,C,2
+D,Ottawa,I-C-3.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-3.mat,inner_race,1,200000,12000,C,3
+D,Ottawa,I-D-1.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-1.mat,inner_race,1,200000,12000,D,1
+D,Ottawa,I-D-2.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-2.mat,inner_race,1,200000,12000,D,2
+D,Ottawa,I-D-3.mat,数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-3.mat,inner_race,1,200000,12000,D,3
+D,Ottawa,O-A-1.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-1.mat,outer_race,2,200000,12000,A,1
+D,Ottawa,O-A-2.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-2.mat,outer_race,2,200000,12000,A,2
+D,Ottawa,O-A-3.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-3.mat,outer_race,2,200000,12000,A,3
+D,Ottawa,O-B-1.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-1.mat,outer_race,2,200000,12000,B,1
+D,Ottawa,O-B-2.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-2.mat,outer_race,2,200000,12000,B,2
+D,Ottawa,O-B-3.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-3.mat,outer_race,2,200000,12000,B,3
+D,Ottawa,O-C-1.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-1.mat,outer_race,2,200000,12000,C,1
+D,Ottawa,O-C-2.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-2.mat,outer_race,2,200000,12000,C,2
+D,Ottawa,O-C-3.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-3.mat,outer_race,2,200000,12000,C,3
+D,Ottawa,O-D-1.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-1.mat,outer_race,2,200000,12000,D,1
+D,Ottawa,O-D-2.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-2.mat,outer_race,2,200000,12000,D,2
+D,Ottawa,O-D-3.mat,数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-3.mat,outer_race,2,200000,12000,D,3

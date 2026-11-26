@@ -1,0 +1,124 @@
+{
+  "seed": 2026,
+  "phase_0_old": {
+    "loss": 0.5624524070255792,
+    "accuracy": 0.753731343283582,
+    "macro_recall": 0.40870098039215685,
+    "per_class_recall": {
+      "normal": 0.8823529411764706,
+      "inner_race": 0.34375,
+      "outer_race": 0.0
+    },
+    "confusion_matrix": [
+      [
+        90,
+        12,
+        0
+      ],
+      [
+        21,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "n": 134
+  },
+  "phase_1_old": {
+    "loss": 1.4699752117270855,
+    "accuracy": 0.41044776119402987,
+    "macro_recall": 0.17973856209150327,
+    "per_class_recall": {
+      "normal": 0.5392156862745098,
+      "inner_race": 0.0,
+      "outer_race": 0.0
+    },
+    "confusion_matrix": [
+      [
+        55,
+        0,
+        47
+      ],
+      [
+        7,
+        0,
+        25
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "n": 134
+  },
+  "phase_1_new": {
+    "loss": 0.3574322760105133,
+    "accuracy": 0.9375,
+    "macro_recall": 0.3125,
+    "per_class_recall": {
+      "normal": 0.0,
+      "inner_race": 0.0,
+      "outer_race": 0.9375
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        30
+      ]
+    ],
+    "n": 32
+  },
+  "phase_1_all": {
+    "loss": 1.255509107227785,
+    "accuracy": 0.5120481927710844,
+    "macro_recall": 0.49223856209150324,
+    "per_class_recall": {
+      "normal": 0.5392156862745098,
+      "inner_race": 0.0,
+      "outer_race": 0.9375
+    },
+    "confusion_matrix": [
+      [
+        55,
+        0,
+        47
+      ],
+      [
+        7,
+        0,
+        25
+      ],
+      [
+        2,
+        0,
+        30
+      ]
+    ],
+    "n": 166
+  },
+  "phase_1_budget": {
+    "tail_dropped": 1650,
+    "budget_skipped": 0,
+    "source_replay_draws": 6400,
+    "target_replay_draws": 6400,
+    "supervised": false,
+    "target_windows_per_update": 64,
+    "unique_windows_used": 161
+  }
+}

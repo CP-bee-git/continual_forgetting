@@ -1,0 +1,980 @@
+{
+  "A_CWRU": {
+    "task": "A_CWRU",
+    "records": [
+      {
+        "path": "数据集/cwru/raw/12k_DE/97.mat",
+        "label": "normal",
+        "native_rate_hz": 12000,
+        "target_rate_hz": 12000,
+        "native_samples": 243938,
+        "native_boundaries": {
+          "train": [
+            0,
+            170756
+          ],
+          "validation": [
+            170756,
+            207347
+          ],
+          "test": [
+            207347,
+            243938
+          ]
+        },
+        "windows": {
+          "train": 330,
+          "validation": 68,
+          "test": 68
+        }
+      },
+      {
+        "path": "数据集/cwru/raw/12k_DE/105.mat",
+        "label": "inner_race",
+        "native_rate_hz": 12000,
+        "target_rate_hz": 12000,
+        "native_samples": 121265,
+        "native_boundaries": {
+          "train": [
+            0,
+            84885
+          ],
+          "validation": [
+            84885,
+            103075
+          ],
+          "test": [
+            103075,
+            121265
+          ]
+        },
+        "windows": {
+          "train": 162,
+          "validation": 32,
+          "test": 32
+        }
+      },
+      {
+        "path": "数据集/cwru/raw/12k_DE/130.mat",
+        "label": "outer_race",
+        "native_rate_hz": 12000,
+        "target_rate_hz": 12000,
+        "native_samples": 121991,
+        "native_boundaries": {
+          "train": [
+            0,
+            85393
+          ],
+          "validation": [
+            85393,
+            103692
+          ],
+          "test": [
+            103692,
+            121991
+          ]
+        },
+        "windows": {
+          "train": 163,
+          "validation": 32,
+          "test": 32
+        }
+      }
+    ],
+    "window": 2048,
+    "stride": 512,
+    "counts": {
+      "train": {
+        "normal": 330,
+        "inner_race": 162,
+        "outer_race": 163
+      },
+      "validation": {
+        "normal": 68,
+        "inner_race": 32,
+        "outer_race": 32
+      },
+      "test": {
+        "normal": 68,
+        "inner_race": 32,
+        "outer_race": 32
+      }
+    }
+  },
+  "B_JNU": {
+    "task": "B_JNU",
+    "records": [
+      {
+        "path": "数据集/external/jnu/raw/n600_3_2.csv",
+        "label": "normal",
+        "native_rate_hz": 50000,
+        "target_rate_hz": 12000,
+        "native_samples": 1501500,
+        "native_boundaries": {
+          "train": [
+            0,
+            1051050
+          ],
+          "validation": [
+            1051050,
+            1276275
+          ],
+          "test": [
+            1276275,
+            1501500
+          ]
+        },
+        "windows": {
+          "train": 489,
+          "validation": 102,
+          "test": 102
+        }
+      },
+      {
+        "path": "数据集/external/jnu/raw/ib600_2.csv",
+        "label": "inner_race",
+        "native_rate_hz": 50000,
+        "target_rate_hz": 12000,
+        "native_samples": 500500,
+        "native_boundaries": {
+          "train": [
+            0,
+            350350
+          ],
+          "validation": [
+            350350,
+            425425
+          ],
+          "test": [
+            425425,
+            500500
+          ]
+        },
+        "windows": {
+          "train": 161,
+          "validation": 32,
+          "test": 32
+        }
+      },
+      {
+        "path": "数据集/external/jnu/raw/ob600_2.csv",
+        "label": "outer_race",
+        "native_rate_hz": 50000,
+        "target_rate_hz": 12000,
+        "native_samples": 500500,
+        "native_boundaries": {
+          "train": [
+            0,
+            350350
+          ],
+          "validation": [
+            350350,
+            425425
+          ],
+          "test": [
+            425425,
+            500500
+          ]
+        },
+        "windows": {
+          "train": 161,
+          "validation": 32,
+          "test": 32
+        }
+      }
+    ],
+    "window": 2048,
+    "stride": 512,
+    "counts": {
+      "train": {
+        "normal": 489,
+        "inner_race": 161,
+        "outer_race": 161
+      },
+      "validation": {
+        "normal": 102,
+        "inner_race": 32,
+        "outer_race": 32
+      },
+      "test": {
+        "normal": 102,
+        "inner_race": 32,
+        "outer_race": 32
+      }
+    }
+  },
+  "C_UESTC": {
+    "task": "C_UESTC",
+    "records": [
+      {
+        "path": "数据集/external/uestc/raw/N_800_1.mat",
+        "label": "normal",
+        "native_rate_hz": 20000,
+        "target_rate_hz": 12000,
+        "native_samples": 262144,
+        "native_boundaries": {
+          "train": [
+            0,
+            183500
+          ],
+          "validation": [
+            183500,
+            222822
+          ],
+          "test": [
+            222822,
+            262144
+          ]
+        },
+        "windows": {
+          "train": 212,
+          "validation": 43,
+          "test": 43
+        }
+      },
+      {
+        "path": "数据集/external/uestc/raw/I_800_1.mat",
+        "label": "inner_race",
+        "native_rate_hz": 20000,
+        "target_rate_hz": 12000,
+        "native_samples": 262144,
+        "native_boundaries": {
+          "train": [
+            0,
+            183500
+          ],
+          "validation": [
+            183500,
+            222822
+          ],
+          "test": [
+            222822,
+            262144
+          ]
+        },
+        "windows": {
+          "train": 212,
+          "validation": 43,
+          "test": 43
+        }
+      },
+      {
+        "path": "数据集/external/uestc/raw/O_800_1.mat",
+        "label": "outer_race",
+        "native_rate_hz": 20000,
+        "target_rate_hz": 12000,
+        "native_samples": 262144,
+        "native_boundaries": {
+          "train": [
+            0,
+            183500
+          ],
+          "validation": [
+            183500,
+            222822
+          ],
+          "test": [
+            222822,
+            262144
+          ]
+        },
+        "windows": {
+          "train": 212,
+          "validation": 43,
+          "test": 43
+        }
+      }
+    ],
+    "window": 2048,
+    "stride": 512,
+    "counts": {
+      "train": {
+        "normal": 212,
+        "inner_race": 212,
+        "outer_race": 212
+      },
+      "validation": {
+        "normal": 43,
+        "inner_race": 43,
+        "outer_race": 43
+      },
+      "test": {
+        "normal": 43,
+        "inner_race": 43,
+        "outer_race": 43
+      }
+    }
+  },
+  "D_Ottawa": {
+    "task": "D_Ottawa",
+    "records": [
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-1.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "A",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-2.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "A",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-A-3.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "A",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-1.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "B",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-2.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "B",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-B-3.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "B",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-1.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "C",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-2.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "C",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-C-3.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "C",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-1.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "D",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-2.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "D",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/1 Data collected from a healthy bearing/H-D-3.mat",
+        "label": "normal",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "D",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-1.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "A",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-2.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "A",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-A-3.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "A",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-1.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "B",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-2.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "B",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-B-3.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "B",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-1.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "C",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-2.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "C",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-C-3.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "C",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-1.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "D",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-2.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "D",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/2 Data collected from a bearing with inner race fault/I-D-3.mat",
+        "label": "inner_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "D",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-1.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "A",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-2.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "A",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-A-3.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "A",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-1.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "B",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-2.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "B",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-B-3.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "B",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-1.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "C",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-2.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "C",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-C-3.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "C",
+        "trial": 3
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-1.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "train": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "train": 231
+        },
+        "speed_profile": "D",
+        "trial": 1
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-2.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "validation": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "validation": 231
+        },
+        "speed_profile": "D",
+        "trial": 2
+      },
+      {
+        "path": "数据集/ottawa/raw/extracted/3 Data collected from a bearing with outer race fault/O-D-3.mat",
+        "label": "outer_race",
+        "native_rate_hz": 200000,
+        "target_rate_hz": 12000,
+        "native_samples": 2000000,
+        "native_boundaries": {
+          "test": [
+            0,
+            2000000
+          ]
+        },
+        "windows": {
+          "test": 231
+        },
+        "speed_profile": "D",
+        "trial": 3
+      }
+    ],
+    "window": 2048,
+    "stride": 512,
+    "counts": {
+      "train": {
+        "normal": 924,
+        "inner_race": 924,
+        "outer_race": 924
+      },
+      "validation": {
+        "normal": 924,
+        "inner_race": 924,
+        "outer_race": 924
+      },
+      "test": {
+        "normal": 924,
+        "inner_race": 924,
+        "outer_race": 924
+      }
+    }
+  }
+}

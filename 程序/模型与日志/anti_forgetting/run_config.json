@@ -1,0 +1,37 @@
+{
+  "device": "cpu",
+  "gpu": null,
+  "cpu": "Intel(R) Core(TM) i7-14650HX",
+  "system": "Ubuntu 26.04.1 LTS",
+  "torch": "2.14.0.dev20260803+cu130",
+  "python": "3.12.0",
+  "cpu_threads": 2,
+  "steps": 100,
+  "batch_size": 64,
+  "lr": 0.001,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "fisher_samples_per_domain": 128,
+  "ewc_lambda": 1000.0,
+  "mmd_weight": 1.0,
+  "gaussian_bandwidth_factors": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "pq_subspaces": 16,
+  "pq_centers_per_subspace": 32,
+  "memory_per_domain": 512,
+  "initial_checkpoints": "current_ABC_ABCD",
+  "methods": [
+    "sequential",
+    "ewc",
+    "pq_replay",
+    "uciln"
+  ]
+}

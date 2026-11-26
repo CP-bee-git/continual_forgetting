@@ -1,0 +1,69 @@
+{
+  "sequences": {
+    "ABC": [
+      "A=CWRU",
+      "B=JNU",
+      "C=UESTC"
+    ],
+    "ABCD": [
+      "A=CWRU",
+      "B=JNU",
+      "C=UESTC",
+      "D=Ottawa"
+    ]
+  },
+  "domains": {
+    "A": {
+      "dataset": "CWRU",
+      "condition": "12 kHz drive-end, 0 HP"
+    },
+    "B": {
+      "dataset": "JNU",
+      "condition": "600 rpm"
+    },
+    "C": {
+      "dataset": "UESTC",
+      "condition": "800 rpm"
+    },
+    "D": {
+      "dataset": "Ottawa v2",
+      "condition": "time-varying speed profiles A-D; 3 trials per selected class and profile"
+    }
+  },
+  "shared_labels": [
+    "normal",
+    "inner_race",
+    "outer_race"
+  ],
+  "target_sample_rate_hz": 12000,
+  "window": 2048,
+  "stride": 512,
+  "split": {
+    "ABC": "raw chronological 70/15/15 before resampling and windowing",
+    "D": "whole recordings by trial index 1/2/3 for train/validation/test"
+  },
+  "normalization": "per-window z-score",
+  "ottawa": {
+    "doi": "10.17632/v43hmbwxpm.2",
+    "raw_zip": "数据集/ottawa/raw/ottawa_bearing_v2.zip",
+    "raw_zip_sha256": "4e5538e71692c83e9f5a4338808983f2a9bb00bfdc4a4e4a9627b616f5794eb1",
+    "selected_classes": [
+      "normal",
+      "inner_race",
+      "outer_race"
+    ],
+    "excluded_classes": [
+      "ball_fault",
+      "combined_fault"
+    ],
+    "selected_records": 36,
+    "signal_channel": "Channel_1 vibration; Channel_2 encoder excluded from WDCNN input",
+    "speed_profiles": {
+      "A": "increasing",
+      "B": "decreasing",
+      "C": "increasing then decreasing",
+      "D": "decreasing then increasing"
+    }
+  },
+  "note": "ABC and ABCD use configuration-only endpoint tests and separate 10-epoch A relearning branches."
+}
